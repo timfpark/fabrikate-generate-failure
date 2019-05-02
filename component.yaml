@@ -6,10 +6,10 @@ subcomponents:
 
   - name: cassandra-operator
     generator: "helm"
-    source: "https://github/instaclustr/cassandra-operator"
+    source: "https://github.com/instaclustr/cassandra-operator"
     path: "helm/cassandra-operator"
 
   - name: cassandra-cluster
     generator: "helm"
-    source: "https://github/instaclustr/cassandra-operator"
+    source: "https://github.com/instaclustr/cassandra-operator"
     path: "helm/cassandra"
