@@ -1,0 +1,15 @@
+name: rhom
+subcomponents:
+  - name: cloud-native
+    source: "https://github.com/timfpark/fabrikate-cloud-native"
+    method: "git"
+
+  - name: cassandra-operator
+    generator: "helm"
+    source: "https://github/instaclustr/cassandra-operator"
+    path: "helm/cassandra-operator"
+
+  - name: cassandra-cluster
+    generator: "helm"
+    source: "https://github/instaclustr/cassandra-operator"
+    path: "helm/cassandra"
